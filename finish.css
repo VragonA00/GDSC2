@@ -1,0 +1,53 @@
+.success-contain{
+    position: fixed;
+    top:0px;
+    right:0px;
+    bottom:0;
+    left:0px;
+    display:flex;
+    background-color:rgba(0,0,0,0.4);
+    align-items:center;
+    justify-content: center;
+    z-index:2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+.body-wrapper{
+    position:absolute;
+    width:456px;
+    height:474px;
+    background-color: white;
+    border-radius:20px;
+    left:600px;
+    bottom:130px;
+    padding-top: 118px;
+
+}
+.ti-check{
+    margin-left:172px;
+    font-size:100px;
+    color:white;
+    background-color: #F25F0C;
+    border-radius:50%;
+    padding:10px;
+}
+
+.success{
+    margin-top:200px;
+    font-family: 'Poppins';
+    font-size:24px;
+    margin:20px 0px 0px 127px;
+}
+.button-finish{
+
+    margin:30px 135px 0px 135px;
+    width:186px;
+    height: 45px;
+    border-radius: 10px;
+    border:none;
+    background-color: #F25F0C;
+    font-size: 14px;
+    color:white;
+}
+.success-contain.active-success{
+    display:none;
+}
